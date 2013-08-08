@@ -1,0 +1,41 @@
+---
+name: Articles
+description: Individual content postings
+slug: articles
+label_field_name: title
+order_by: created_at
+fields:
+- title:
+    label: Title
+    type: string
+    hint: "Short title will display as a heading, keep it short! around 40 characters"
+    required: true
+- body:
+    label: Body
+    type: text
+    hint: Body of the article
+    required: true
+    text_formatting: html
+- author:
+    label: Author
+    type: belongs_to
+    hint: the author of the article
+    required: true
+    class_name: authors
+    ui_enabled: true
+- articles:
+    label: Videos
+    type: has_many
+    hint: Videos attached to this article
+    class_name: videos
+    inverse_of: article
+    ui_enabled: true
+- post_date:
+    label: Post Date
+    type: date
+    hint: The date you enter will be used to determine the date this article should be posted
+    required: true
+- tags:
+    label: Tags
+    type: tags
+    hint: Tags used to search for relevant articles

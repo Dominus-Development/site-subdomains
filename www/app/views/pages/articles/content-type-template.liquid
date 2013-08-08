@@ -1,0 +1,26 @@
+---
+title: article_template
+slug: content_type_template
+listed: true
+published: true
+cache_strategy: none
+response_type: text/html
+position: 0
+content_type: articles
+---
+{% extends 'parent' %}
+
+{% block 'content' %}
+
+<div>
+  <h4>{{ article.title }}</h4>
+  <h5>by {{ article.author._label }}</h5>
+  <br/>
+
+  {% include video_carousel with videos: 'article.videos' %}
+  <div>{{ article.body }}</div>
+  <br/>
+  <p>Posted on: {{ article.post_date }} </p>
+</div>
+
+{% endblock %}

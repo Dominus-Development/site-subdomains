@@ -1,0 +1,33 @@
+---
+name: Authors
+description: Creators of content postings
+slug: authors
+label_field_name: published_name
+order_by: created_at
+fields:
+- first_name:
+    label: first_name
+    type: string
+    required: true
+- last_name:
+    label: last_name
+    type: string
+    required: true
+- published_name:
+    label: published_name
+    type: string
+    hint: Name of author to display instead of full name
+    required: false
+    unique: true
+- email:
+    label: Email
+    type: email
+    hint: Email address of author
+    required: true
+- articles:
+    label: Articles
+    type: has_many
+    hint: Articles created by author
+    class_name: articles
+    inverse_of: author
+    ui_enabled: true

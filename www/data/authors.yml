@@ -1,0 +1,11 @@
+---
+- John Epperson:
+    _slug: johnepperson
+    first_name: John
+    last_name: Epperson
+    email: j.epperson@verizon.net
+- Rachel Epperson:
+    _slug: rachelepperson
+    first_name: Rachel
+    last_name: Epperson
+    email: racheldmueller@gmail.com

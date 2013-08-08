@@ -1,0 +1,22 @@
+---
+- First Article EVAR!:
+    _slug: first-article-evar
+    body: <p>Here is some AWESOME body text</p>
+    author: johnepperson
+    post_date: 2013-07-17
+    tags:
+    - video
+    - fireworks
+- Second Article:
+    _slug: second-article
+    body: <p>Cool Stuff again</p>
+    author: rachelepperson
+    post_date: 2013-07-18
+    tags:
+    - cool
+    - stuff
+- 3rd Article:
+    _slug: 3rd-article
+    body: <p>Stuff goes here.</p>
+    author: johnepperson
+    post_date: 2013-07-18

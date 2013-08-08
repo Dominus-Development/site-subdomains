@@ -1,0 +1,22 @@
+---
+title: Articles
+slug: articles
+handle: articles
+listed: true
+published: true
+cache_strategy: none
+response_type: text/html
+position: 0
+seo_title: Articles
+---
+{% extends 'parent' %}
+
+{% block 'content' %}
+
+{% for article in contents.articles %}
+  <p>
+    <a href="articles/{{ article._permalink }}">{{ article.title }}</a> - {{ article.author._label }}
+  </p>
+{% endfor %}
+
+{% endblock %}

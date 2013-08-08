@@ -1,0 +1,8 @@
+---
+- Fireworks Video:
+    _slug: fireworks-video
+    file: https://s3.amazonaws.com/dominate-gaming/fireworks.mp4
+    article: first-article-evar
+    tags:
+    - video
+    - fireworks

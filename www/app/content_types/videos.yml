@@ -1,0 +1,27 @@
+---
+name: Videos
+description: Individual video postings
+slug: videos
+label_field_name: title
+order_by: created_at
+fields:
+- title:
+    label: Title
+    type: string
+    hint: Short title will display as a heading, keep it short! around 40 characters
+    required: true
+- file:
+    label: Body
+    type: file
+    hint: File that will be shown in the video player
+    required: true
+- article:
+    label: Article
+    type: belongs_to
+    hint: the article this video is attached to
+    class_name: articles
+    ui_enabled: true
+- tags:
+    label: Tags
+    type: tags
+    hint: Tags used to search for relevant videos
