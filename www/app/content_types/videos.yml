@@ -4,6 +4,7 @@ description: Individual video postings
 slug: videos
 label_field_name: title
 order_by: created_at
+order_direction: asc
 fields:
 - title:
     label: Title

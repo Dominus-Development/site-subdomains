@@ -4,11 +4,12 @@ description: Individual content postings
 slug: articles
 label_field_name: title
 order_by: created_at
+order_direction: asc
 fields:
 - title:
     label: Title
     type: string
-    hint: "Short title will display as a heading, keep it short! around 40 characters"
+    hint: Short title will display as a heading, keep it short! around 40 characters
     required: true
 - body:
     label: Body

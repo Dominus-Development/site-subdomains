@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 # ruby '1.9.3'
-gem 'locomotivecms_mounter', :git => 'git://github.com/dominatedominion/mounter.git', :ref => '81ccdb3a7d540b7159945ad913c3af1c3752104c'
-gem 'locomotivecms_wagon', '~> 1.2.0'
+# gem 'locomotivecms_mounter', :git => 'git://github.com/dominatedominion/mounter.git', :ref => '81ccdb3a7d540b7159945ad913c3af1c3752104c'
+gem 'locomotivecms_wagon'
 
 group :development do
   # Mac OS X

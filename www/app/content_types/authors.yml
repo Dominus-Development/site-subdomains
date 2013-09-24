@@ -4,6 +4,7 @@ description: Creators of content postings
 slug: authors
 label_field_name: published_name
 order_by: created_at
+order_direction: asc
 fields:
 - first_name:
     label: first_name

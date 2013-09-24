@@ -1,0 +1,23 @@
+Started GET "/" at 2013-08-19 13:28:21 -0500
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet banner
+  Rendered snippet article_summary
+  Rendered snippet article_summary
+  Rendered snippet article_summary
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.4ms
+
+
+Started GET "/articles/first-article-evar" at 2013-08-19 13:28:23 -0500
+Detecting locale EN
+Found page "article_template" [articles/*]
+  Rendered snippet video_carousel
+  Rendered snippet video
+  Rendered snippet flowplayer
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.7ms
+
+
